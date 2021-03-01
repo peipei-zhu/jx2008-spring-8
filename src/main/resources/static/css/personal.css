@@ -1,0 +1,38 @@
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.flex{
+    display: flex;
+}
+.sb{
+    justify-content: space-between;
+}
+.text-center{
+    font-size: 25px;
+    text-align: center;
+}
+
+.title a{
+    font-size: 20px;
+    color: black;
+}
+.title{
+    border-style: solid;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.top{
+    margin-top: 50px;
+}
+#user-name{
+    color: red;
+}
+.text button{
+    margin-left: 900px;
+}
+.title{
+    background: darkorange;
+}

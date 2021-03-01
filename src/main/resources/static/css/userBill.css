@@ -1,0 +1,88 @@
+body{
+    font-family: "微软雅黑";
+    background: url("../imgs/xin.jpg");
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.sb{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+select  input{
+    width: 200px;
+}
+#pid{
+    width: 100px;
+}
+.text-right{
+    text-align:right;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.zz{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.zz .container{
+    padding: 20px 15px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background: #fff;
+}
+.form-group{
+    margin-top: 15px;
+}
+
+.cate-name button{
+margin-left: 950px;
+margin-bottom: 10px;
+}
+#page-box{
+    margin-top: 10px;
+}
+
+.form-group button{
+    margin-left: 50px;
+}
+.top{
+    margin-bottom: 10px;
+}
+
+.form-group button{
+    margin-left: 60px;
+}
+.middle #remind-money{
+    margin-left: 20px;
+    font-size: 10px;
+    color: red;
+}
+.return button{
+    margin-left: 955px;
+    margin-bottom: 10px;
+}

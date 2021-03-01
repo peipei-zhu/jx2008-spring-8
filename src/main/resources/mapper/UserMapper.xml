@@ -1,0 +1,17 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cykj.jx2008spring8.mapper.UserMapper">
+
+    <select id="selectUserList" resultType="com.cykj.jx2008spring8.entity.User">
+        select * from spring_jdbc
+    </select>
+
+    <insert id="insertUser" parameterType="com.cykj.jx2008spring8.entity.User">
+          insert into spring_jdbc(id,name,age) values(#{id},#{name},#{age})
+    </insert>
+
+    <insert id="insertt" parameterType="com.cykj.jx2008spring8.entity.User">
+          insert into spring_jdbc(id,name,age) values(#{id},#{name},#{age})
+    </insert>
+</mapper>

@@ -1,0 +1,19 @@
+body , ul , li{
+    margin: 0 ;
+    padding: 0;
+
+}
+body{
+    font-family: "微软雅黑";
+   background-image: url("../imgs/dahai.jpg");
+}
+
+
+/*去掉ul的小点*/
+ul , li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+

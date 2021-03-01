@@ -1,0 +1,129 @@
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.sb{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+select  input{
+    width: 200px;
+}
+#pid{
+    width: 100px;
+}
+.text-right{
+    text-align:right;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.zz{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.zz .container{
+    padding: 1px 120px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background: #fff;
+}
+.form-group{
+    margin-top: 15px;
+}
+.search button{
+    margin-top: 10px;
+    margin-left: 855px;
+    margin-bottom: 20px;
+}
+.form-group button{
+    margin-left: 60px;
+}
+.search button{
+    margin-left: 800px;
+}
+#page-box button{
+    margin-top: 10px;
+}
+.group img{
+    width: 110px;
+    height: 110px;
+}
+.group{
+    margin-left: -80px;
+}
+.group1{
+    margin-left:20px;
+}
+.group2{
+    margin-left:100px;
+}
+.group-text span{
+    margin-left: -100px;
+}
+.group-text{
+    margin-bottom: 5px;
+}
+.group-time{
+    margin-left: 50px;
+}
+table{
+    margin-top: 10px;
+}
+.group-problem{
+    margin-left: -30px;
+}
+.group select{
+    width: 80px;
+}
+.group1 select{
+    width: 80px;
+}
+.group-introduce{
+    margin-left: -80px;
+}
+.form-group-evalute span{
+    margin-left: -80px;
+}
+.group-evalute span{
+    margin-left: -80px;
+}
+.form-group-evalute{
+    margin-bottom: 10px;
+}
+.form-group-return{
+    margin-left: 110px;
+}
+.form-group-details{
+    margin-top: 5px;
+}
+.form-group-details button{
+    margin-left: 130px;
+}
+
+.return button{
+    margin-left: 800px;
+}
